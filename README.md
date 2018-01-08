@@ -1,7 +1,7 @@
 # Ghi chép ban đầu về telegram bot
 - [1. Khái niệm về Bot trong telegram](#khainiem)
 
-- [2. Bot họat động như thế nào](#hoatdong)
+- [2. Bot họat động như thế nào?](#hoatdong)
 
 - [3. Cách tạo ra một con Bot](#creatbot) 
 
@@ -28,7 +28,7 @@ Bạn có thể làm được những gì với `Bot` ???
 
 VD: Thông qua Gmail Bot để gửi mail bằng cách sử dụng command để tương tác:
 
-<img src = "https://i.imgur.com/AyA8M6z.png">
+<img src = "https://github.com/MinhKMA/ghichep-telegram-bot/blob/master/images/bot1.png">
 
 - Lập trình một trò chơi 
 - ChatBot để tìm kiếm những người bạn nói chuyện dựa trên cùng sở thích hay cùng khu vục hoặc ngẫu nhiên 
@@ -69,7 +69,7 @@ Tin nhắn, command hoặc request do người dùng gửi đến được truy�
 
 - Nhập user name cho Bot. Lưu ý đọc kỹ hướng dẫn để tạo ra một username hợp lệ
 
-<img src ="https://i.imgur.com/g5GSA01.png">
+<img src ="https://github.com/MinhKMA/ghichep-telegram-bot/blob/master/images/bot2.png">
 
 - Sau khi tạo xong bạn sẽ nhận được token để xác thực với con Bot của bạn.
 
@@ -85,7 +85,7 @@ Tin nhắn, command hoặc request do người dùng gửi đến được truy�
 
 Kết quả trả về :
 
-<img src="https://i.imgur.com/lWgZjTD.png">
+<img src="https://github.com/MinhKMA/ghichep-telegram-bot/blob/master/images/bot3.png">
 
 Ta sẽ thấy có:
 
@@ -97,7 +97,7 @@ Ta sẽ thấy có:
 
 Đây là method để bạn list ra được thông tin về tin nhắn người dùng tương tác(gửi) cho con Bot đó 
 
-<img src="https://i.imgur.com/0NWMRW4.png">
+<img src="https://github.com/MinhKMA/ghichep-telegram-bot/blob/master/images/bot4.png">
 
 Trong đó: 
 
