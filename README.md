@@ -1,9 +1,9 @@
-# Ghi chép ban đầu về telegram bot
-- [1. Khái niệm về Bot trong telegram](#khainiem)
+# Ghi chép ban đầu về Telegram Bot
+- [1. Khái niệm về Bot](#khainiem)
 
 - [2. Bot họat động như thế nào?](#hoatdong)
 
-- [3. Cách tạo ra một con Bot](#creatbot) 
+- [3. Các bước tạo ra một con Bot](#creatbot) 
 
 - [4. Tài liệu tham khảo](#tailieu)
 
@@ -49,7 +49,7 @@ Mình chỉ lấy một số ngữ cảnh sử dụng để mọi người dễ 
 Tin nhắn, command hoặc request do người dùng gửi đến được truyền cho phần mềm chạy trên máy chủ của bạn. Máy chủ trung gian xử lý mã hóa và giao tiếp với telegram API cho bạn. Bạn cũng có thể giao tiếp với nó thông qua  HTTPS-interface 
 
 <a name=creatbot></a>
-### 3. Các bước tạo ra một con Bot.
+### 3. Các bước tạo ra một con Bot
 
 #### Bước 1: Bạn phải có một tài khoản đăng nhập telegram 
 
@@ -115,8 +115,15 @@ VD: gửi một tin nhắn cho người dùng với nội dung là    `anhdept
 ``https://api.telegram.org/bot<string_token>/sendMessage?chat_id=<id_user>&text=anhdeptraiquatroi``
 
 Đó là những gì cơ bản nhất khi bạn muốn bắt đầu với Bot trong telegram. Còn rất nhiều method hơn tham khảo tại <a href="https://core.telegram.org/bots/api">Bot API</a>
+
+#### Bước 4: Viết tính năng cho Bot
+
+Lúc này bạn đã có một Bot với token. Nhiệm vụ của các bạn lúc này là dùng một ngôn ngữ lập trình mà Telegram hỗ trợ như Python, Java để viết tính năng cho Bot. Bot có khả năng đến đâu chính là phụ thuộc và code có thể làm được những gì :P.
+
+Và tôi sẽ update những ví dụ cụ thể việc tạo một con Bot và code những tính năng cho con Bot đó trong thời gian sớm nhất.
+
 <a name=tailieu></a>
-### Tài liệu tham khảo 
+### 4. Tài liệu tham khảo
 
 - https://core.telegram.org/bots
 - https://core.telegram.org/bots/api
