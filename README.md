@@ -1,7 +1,7 @@
 # Ghi chép ban đầu về Telegram Bot
 - [1. Khái niệm về Bot](#khainiem)
 
-- [2. Bot họat động như thế nào?](#hoatdong)
+- [2. Bot hoạt động như thế nào?](#hoatdong)
 
 - [3. Các bước tạo ra một con Bot](#creatbot) 
 
