@@ -20,11 +20,11 @@ Bot:
 
 - Trong telegram: Nó là ứng dụng của bên thứ ba sử dụng trong telegram. Người dùng có thể tương tác với Bot bằng cách gửi tin nhắn đến nó hoặc sử dụng câu lệnh... Bạn có thể tạo ra một con Bot cho riêng mình từ BotFather của telegram và điều khiển(ra lệnh) nó thực hiện một công việc cụ thể thông qua API (VD: tự động gửi tin nhắn cho một người dùng nào đó)
 
-- Trong internet: Thì nó được hiểu là một robot, là một ứng dụng để tự động hóa các vụ lặp đi lặp lại chẳng hạn như cài đặt báo thức, báo cho bạn biết thời tiết hoặc tìm kiếm trực tuyến. 
+- Trong internet: Thì nó được hiểu là một robot, là một ứng dụng để tự động hóa các tác vụ lặp đi lặp lại chẳng hạn như cài đặt báo thức, báo cho bạn biết thời tiết hoặc tìm kiếm trực tuyến. 
 
 Bạn có thể làm được những gì với `Bot` ???
 
-- Tích hợp với một dịch vụ bên ngoài. Ví dụ bạn có tích với Gmail để gửi mail thông qua telegram, hoặc với github, youtobe...
+- Tích hợp với một dịch vụ bên ngoài. Ví dụ bạn có tích với Gmail để gửi mail thông qua telegram, hoặc với github, youtube...
 
 VD: Thông qua Gmail Bot để gửi mail bằng cách sử dụng command để tương tác:
 
@@ -59,7 +59,7 @@ Tin nhắn, command hoặc request do người dùng gửi đến được truy�
 
 #### Bước 2: Tìm `BotFather`
 
-- Sau khi tìm thấy BotFather thì click vào `start` để bắt đầu giao tiếp với nó
+- Sau khi tìm thấy BotFather trong ô search  thì click vào nó và `start` để bắt đầu giao tiếp với nó
 
 - Bot sẽ trả về cho mình danh sách các commands để bạn control 
 
@@ -81,9 +81,11 @@ Tin nhắn, command hoặc request do người dùng gửi đến được truy�
 
 Đây chính là method để bạn có list ra được thông tin Bot của bạn 
 
+Bạn mở trình duyệt web lên và dán đường link ở dưới vào cùng với `string_token` vừa nhận từ Botfather.
+
 ``https://api.telegram.org/bot<string_token>/getMe``
 
-Kết quả trả về :
+Kết quả trả về tùy thuột vào add-on trình duyệt  :
 
 <img src="https://github.com/MinhKMA/ghichep-telegram-bot/blob/master/images/bot3.png">
 
@@ -96,6 +98,8 @@ Ta sẽ thấy có:
 ##### getUpdates 
 
 Đây là method để bạn list ra được thông tin về tin nhắn người dùng tương tác(gửi) cho con Bot đó 
+
+Sau khi bạn đã nhắn tin cho bot của bạn, đây là phương thức để list ra các thông tin tin nhắn người dùng tương tác với con bot đó.
 
 <img src="https://github.com/MinhKMA/ghichep-telegram-bot/blob/master/images/bot4.png">
 
